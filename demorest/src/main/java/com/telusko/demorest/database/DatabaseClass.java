@@ -5,7 +5,7 @@ import java.util.Map;
 import javax.xml.stream.events.Comment;
 
 import com.telusko.demorest.model.Message;
-import com.telusko.demorest.model.Profile;
+import com.telusko.demorest.model.Profile; 
 
 public class DatabaseClass {
 	private static Map<Long,Message>messages=new HashMap<>();
